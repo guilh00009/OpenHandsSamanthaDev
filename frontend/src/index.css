@@ -1,16 +1,28 @@
 :root {
-  --bg-dark: #0c0e10;
-  --bg-light: #292929;
-  --bg-input: #393939;
-  --bg-workspace: #1f2228;
-  --border: #3c3c4a;
-  --text-editor-base: #9099AC;
-  --text-editor-active:#C4CBDA;
-  --bg-editor-sidebar: #24272E;
-  --bg-editor-active: #31343D;
-  --border-editor-sidebar: #3C3C4A;
-  background-color: var(--neutral-900) !important;
-  --bg-neutral-muted: #afb8c133;
+  --bg-dark: #ffffff;
+  --bg-light: #f8f8f8;
+  --bg-input: #ffffff;
+  --bg-workspace: #ffffff;
+  --border: #FF3B30;
+  --text-editor-base: #2c2c2c;
+  --text-editor-active: #000000;
+  --bg-editor-sidebar: #f8f8f8;
+  --bg-editor-active: #ffffff;
+  --border-editor-sidebar: #FF3B30;
+  background-color: #ffffff !important;
+  --bg-neutral-muted: #FF3B3033;
+  
+  /* Samantha theme colors */
+  --samantha-red: #FF3B30;
+  --samantha-red-light: #FF6B6B;
+  --samantha-red-dark: #E02020;
+  --samantha-white: #ffffff;
+  --samantha-off-white: #f8f8f8;
+  --samantha-text: #2c2c2c;
+  --samantha-text-light: #666666;
+  
+  /* Infinity symbol for registered mark */
+  --registered-mark: "∞";
 }
 
 body {
@@ -32,10 +44,10 @@ code {
   margin: 0;
   font-size: 85%;
   white-space: break-spaces;
-  background-color: #2a3038;
+  background-color: var(--samantha-off-white);
   border-radius: 4px;
-  color: #e6edf3;
-  border: 1px solid #30363d;
+  color: var(--samantha-text);
+  border: 1px solid var(--samantha-red-light);
   letter-spacing: -0.2px;
 }
 
