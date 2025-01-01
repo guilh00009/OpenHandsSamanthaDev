@@ -9,12 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'root-primary': '#ffffff',
-        'root-secondary': '#f8f8f8',
-        'samantha-red': '#FF3B30',
-        'samantha-red-light': '#FF6B6B',
-        'samantha-red-dark': '#E02020',
-        'hyperlink': '#FF3B30',
+        'root-primary': '#171717',
+        'root-secondary': '#262626',
+        'hyperlink': '#007AFF',
         'danger': '#EF3744',
         'success': '#4CAF50',
       },
@@ -31,18 +28,9 @@ export default {
         },
       },
       themes: {
-        light: {
-          colors: {
-            primary: "#FF3B30",
-            secondary: "#ffffff",
-            background: "#ffffff",
-          },
-        },
         dark: {
           colors: {
-            primary: "#FF3B30",
-            secondary: "#ffffff",
-            background: "#ffffff",
+            primary: "#4465DB",
           },
         }
       }
